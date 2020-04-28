@@ -1,4 +1,4 @@
-package com.function;
+package com.function.user;
 
 import java.util.*;
 import com.microsoft.azure.functions.annotation.*;
@@ -8,7 +8,7 @@ import com.microsoft.azure.functions.*;
  * Azure Functions with HTTP Trigger.
  */
 public class FunctionEmp {
-    /**
+    /** // UseDevelopmentStorage=true
      * This function listens at endpoint "/api/FunctionEmp". Two ways to invoke it using "curl" command in bash:
      * 1. curl -d "HTTP Body" {your host}/api/FunctionEmp
      * 2. curl {your host}/api/FunctionEmp?name=HTTP%20Query
